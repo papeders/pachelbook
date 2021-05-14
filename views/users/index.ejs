@@ -1,0 +1,9 @@
+<%- include('../partials/boilerplate') %>
+<body>
+    <% for (let i = 0; i < users.length; i++){ %>
+        <img src=<%=users[i].img %> alt="user"/>
+        <p><%= users[i].aboutMe %></p>
+    <% } %>
+</body>
+</html>
+
